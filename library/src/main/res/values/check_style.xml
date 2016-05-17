@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="picture_check" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/picture_check</item>
+    </style>
+    <style name="atlas_check" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/atlas_check</item>
+    </style>
+</resources>
