@@ -55,6 +55,8 @@ public class PictureAdapter extends RecyclerView.Adapter<PictureAdapter.PictureH
     @Override
     public void onBindViewHolder(PictureHolder holder, int position) {
         holder.imageView.setImageResource(R.drawable.bg_no_image);
+        holder.imageView.setMaxHeight(itemHeight);
+        holder.imageView.setMaxWidth(itemHeight);
         ImageLoader.getImageLoader().loadImage(ps.get(position).getPath(), holder.imageView);
     }
 
